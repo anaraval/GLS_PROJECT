@@ -20,6 +20,6 @@ from GLS import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    url(r'^$', views.home)
+    url(r'home', views.home)
 
 ]
